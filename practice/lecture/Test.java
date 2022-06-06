@@ -26,3 +26,9 @@ public class Test{
     System.out.println("Hello World");
   }
 }
+// arrays vs arraylists
+// array - static size
+// array lists - dyanmic size (push,pop)
+
+// int[] numsArray
+//numsArray = new int[4] - numsArray with a size of 4 

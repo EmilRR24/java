@@ -9,11 +9,13 @@ public class TestCafe {
       Hint: it will need to correspond with the variable name used below..
     */
     CafeUtil newCafeUtil = new CafeUtil();
+
+    newCafeUtil.sayHello();
     	
         /* ============ App Test Cases ============= */
     
         System.out.println("\n----- Streak Goal Test -----");
-        System.out.printf("Purchases needed by week 10: %s \n\n", appTest.getStreakGoal());
+        // System.out.printf("Purchases needed by week 10: %s \n\n", appTest.getStreakGoal());
     
         // System.out.println("----- Order Total Test-----");
         // double[] lineItems = {3.5, 1.5, 4.0, 4.5};
