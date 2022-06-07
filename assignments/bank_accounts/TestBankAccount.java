@@ -5,9 +5,21 @@ public class TestBankAccount{
 
         BankAccount newBankAccount2 = new BankAccount(20.0, 20.0);
 
-        System.out.println(BankAccount.numberOfAccounts);
+        BankAccount.printNumberOfAccounts();
 
-        System.out.println(newBankAccount1.totalAmount);
+        newBankAccount1.getCheckingBalance();
+
+        newBankAccount2.getSavingsBalance();
+
+        newBankAccount1.depositChecking(20.0);
+
+        newBankAccount2.depositSavings(30.0);
+
+        newBankAccount1.withdrawSavings(30.0);
+        
+        newBankAccount2.withdrawSavings(30.0);
+
+        newBankAccount2.printAccountTotal();
 
     }
 }
